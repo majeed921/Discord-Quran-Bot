@@ -15,6 +15,6 @@
     "opusscript": "^0.1.1"
   },
   "engines": {
-    "node": "24.x"
+    "node": "v24.11.0"
   }
 }
