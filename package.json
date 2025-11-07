@@ -18,12 +18,3 @@
     "node": "18.x"
   }
 }
-```
-
-### Your project structure should look like this:
-```
-your-project/
-├── index.js
-├── package.json
-├── quran.mp3
-└── render.yaml (optional but recommended)
