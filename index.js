@@ -39,7 +39,7 @@ async function playQuran() {
 }
 
 async function setupQuran() {
-    let ch = client.channels.cache.get(process.env.qch);
+    let ch = client.channels.cache.get("1434549744931176538");
 
     if (!ch) {
         console.error('Channel not found! Check your qch environment variable.');
@@ -98,4 +98,4 @@ client.on("ready", () => {
     setupQuran();
 });
 
-client.login(process.env.token);
+client.login("MTQzMzY2MDM2ODg5MDIzNjk1OA.GCLjHl.srRLA9Z2rDeJbYExnrXGz8oZfEJJ0ySJ_GbWKs");
